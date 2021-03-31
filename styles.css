@@ -3,21 +3,33 @@
 }
 .title{
   font-family: var(--font-heading);
-  font-size: 1.8em;
+  font-size: 1.6rem;
   margin: 0;
 }
 .header{
-  padding: 40px 20px;
   position: relative;
+  margin-bottom: 50px;
 }
 .header-container{
+  padding: 40px 20px 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between; 
+  margin-bottom: 20px;
 }
 .header__menu{
   width: 10%;
 }
 .header__text{
   font-family: var(--font-heading);
+  padding: 0 20px;
+}
+.img{
+  width: 100%;
+  object-fit: contain;
+}
+/* Main */
+.subtitle{
+  font-family: var(--font-heading);
+  text-align: center;
 }
