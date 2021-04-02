@@ -84,7 +84,11 @@
   text-align: center;
   margin-bottom: 20px;
 }
-.article:nth-child(4){
+.article{
+  background-color: #f3f4f6;
+  padding: 80px 0 10px 0;
+}
+.article-map{
   padding: 10px 10px;
 }
 .main__text{
@@ -93,6 +97,12 @@
   padding: 0 10px;
   line-height: 1.5em;
   margin-bottom: 80px;
+}
+.prueba{
+  max-width: 100%;
+  display: block;
+  /* margin-bottom: 40px; */
+  margin-top: 73.5px;
 }
 .section{
   padding: 0 40px;
