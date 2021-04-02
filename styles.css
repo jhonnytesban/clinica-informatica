@@ -186,8 +186,12 @@
   .title{
     font-size: 2.2em;
   }
+  .header{
+    margin-bottom: 0;
+  }
   .header__menu{
     width: 5%;
+    cursor: pointer;
   }
   .header-container{
     padding: 20px 50px;
@@ -197,5 +201,34 @@
   }
   .nav-disabled{
     top: calc(0px + 85px);
+  }
+  .header-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px 50px 100px;
+    margin-top: 50px;
+    background-color: #f3f4f6;
+  }
+  .prueba{
+    width: 40%;
+    height: 20%;
+  }
+  .header__text{
+    text-align: justify;
+    line-height: 1.5em;
+  }
+  /* Main */
+  .main-container1{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .img{
+    width: 50%;
+    margin: 0;
+  }
+  .article{
+    display: flex;
   }
 }
