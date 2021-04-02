@@ -17,6 +17,7 @@
   background-color: #fff;
   position: fixed;
   top: 0;
+  box-shadow: 0 1px 8px rgb(104, 104, 104);
 }
 .header__menu{
   width: 10%;
