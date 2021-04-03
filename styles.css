@@ -386,6 +386,18 @@
     margin: 20px 0;
   }
 }
+@media (min-width: 1300px) {
+  .nav-activated{
+    top: calc(0px + 100px);
+  }
+  .nav-disabled{
+    top: calc(0px + 100px);
+  }
+  .header__text{
+    padding: 0 100px;
+    text-align: left;
+  }
+}
 @media (min-width: 1400px) {
   .nav-activated{
     top: calc(0px + 97px);
