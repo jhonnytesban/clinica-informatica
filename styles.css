@@ -20,6 +20,7 @@
   top: 0;
   box-shadow: 0 1px 8px rgb(104, 104, 104);
   box-sizing: border-box;
+  z-index: 1000;
 }
 .header__menu{
   width: 10%;
@@ -87,6 +88,9 @@
   margin-top: 73.5px;
 }
 /* Main */
+.main-container1{
+  position: relative;
+}
 .subtitle{
   font-family: var(--font-heading);
   text-align: center;
@@ -113,20 +117,56 @@
 .prueba{
   max-width: 100%;
   display: block;
-  /* margin-bottom: 40px; */
-  margin-top: 73.5px;
+  /* margin-top: 73.5px; */
   padding-top: 20px;
+  animation-name: img1;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
 .prueba2{
   max-width: 100%;
-  height: 80%;
+  height: 60%;
   display: block;
-  /* margin-bottom: 40px; */
   padding-top: 20px;
   position: absolute;
+  margin: auto;
   top: 0;
   opacity: 1;
-  /* z-index: -100; */
+  z-index: -100;
+  animation-name: img2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.prueba3{
+  max-width: 100%;
+  height: 70%;
+  display: block;
+  padding-top: 20px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  opacity: 0;
+  animation-name: img3;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+@keyframes img1 {
+  25% {opacity: 1;}
+  50% {opacity: 0;}
+  75% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes img2 {
+  25% {opacity: 0;}
+  50% {opacity: 1;}
+  75% {opacity: 0;}
+  100% {opacity: 0;}
+}
+@keyframes img3 {
+  25% {opacity: 0;}
+  50% {opacity: 0;}
+  75% {opacity: 1;}
+  100% {opacity: 0;}
 }
 .section{
   padding: 0 40px;
@@ -186,6 +226,9 @@
   .nav-disabled{
     top: calc(0px + 69px);
   }
+  .img{
+    margin-top: 69px;
+  }
 }
 /* Responsive mobile 425 */
 @media (min-width: 425px) {
@@ -222,8 +265,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 50px 50px 100px;
-    margin-top: 50px;
+    padding: 20px 50px 50px 50px;
+    margin-top: 80.9px;
     background-color: #f3f4f6;
   }
   .prueba{
@@ -329,8 +372,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 50px 50px 100px;
-    margin-top: 50px;
+    padding: 50px 50px 50px 50px;
+    margin-top: 86.20px;
     background-color: #f3f4f6;
   }
   .prueba{
