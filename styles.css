@@ -91,6 +91,9 @@
 .main-container1{
   position: relative;
 }
+.container-animation{
+  padding-bottom: 50px;
+}
 .subtitle{
   font-family: var(--font-heading);
   text-align: center;
@@ -115,9 +118,9 @@
   margin-bottom: 80px;
 }
 .prueba{
-  max-width: 100%;
+  width: 100%;
   display: block;
-  /* margin-top: 73.5px; */
+  margin-top: auto;
   padding-top: 20px;
   animation-name: img1;
   animation-duration: 8s;
@@ -125,13 +128,14 @@
 }
 .prueba2{
   max-width: 100%;
-  height: 60%;
+  max-height: 100%;
+  object-fit: contain;
   display: block;
   padding-top: 20px;
   position: absolute;
   margin: auto;
   top: 0;
-  opacity: 1;
+  opacity: 0;
   z-index: -100;
   animation-name: img2;
   animation-duration: 8s;
@@ -139,8 +143,9 @@
 }
 .prueba3{
   max-width: 100%;
-  height: 70%;
+  max-height: 100%;
   display: block;
+  object-fit: cover;
   padding-top: 20px;
   position: absolute;
   margin: auto;
@@ -270,8 +275,13 @@
     background-color: #f3f4f6;
   }
   .prueba{
-    width: 40%;
-    height: 20%;
+    width: 90%;
+  }
+  .prueba2{
+    max-width: 50%;
+  }
+  .prueba3{
+    max-width: 50%;
   }
   .header__text{
     text-align: justify;
@@ -376,13 +386,28 @@
     margin-top: 86.20px;
     background-color: #f3f4f6;
   }
+  .main-container1{
+    padding: 0 100px;
+  }
   .prueba{
     width: 40%;
-    height: 20%;
+    margin: auto;
+  }
+  .prueba2{
+    width: 50%;
+    height: 90%;
+    object-fit: contain;
+    margin: auto;
+  }
+  .prueba3{
+    width: 50%;
+    height: 90%;
+    object-fit: contain;
+    margin: auto;
   }
   .header__text{
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 1.8em;
   }
   /* Main */
   .main-container1{
@@ -397,7 +422,7 @@
     text-align: left;
   }
   .img{
-    width: 50%;
+    width: 40%;
     margin: 0;
   }
   .article{
@@ -486,5 +511,11 @@
   }
   .section__text{
     font-size: 1.4em;
+  }
+  .prueba2{
+    width: 40%;
+  }
+  .prueba3{
+    width: 40%;
   }
 }
