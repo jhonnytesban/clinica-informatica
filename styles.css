@@ -228,6 +228,14 @@ html {
 .footer__icon{
   max-width: 20%;
 }
+.whatsap{
+  width: 5%;
+  margin-right: 10px;
+}
+.gmail{
+  width: 5%;
+  margin-right: 10px;
+}
 /* Responsive mobile 350 */
 @media (max-width: 350px) {
   .nav-activated{
@@ -474,6 +482,14 @@ html {
     color: #fff;
     margin: 20px 0;
   }
+  .whatsap{
+    width: 3%;
+    margin-right: 10px;
+  }
+  .gmail{
+    width: 3%;
+    margin-right: 10px;
+  }
 }
 @media (min-width: 1300px) {
   .nav-activated{
@@ -485,6 +501,14 @@ html {
   .header__text{
     padding: 0 100px;
     text-align: left;
+  }
+  .whatsap{
+    width: 2%;
+    margin-right: 10px;
+  }
+  .gmail{
+    width: 2%;
+    margin-right: 10px;
   }
 }
 @media (min-width: 1400px) {
