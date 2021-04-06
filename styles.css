@@ -1,7 +1,9 @@
 :root{
   --font-heading: 'Raleway', sans-serif;;
 }
-.title{
+html {
+  scroll-behavior: smooth;
+}.title{
   font-family: var(--font-heading);
   font-size: 1.6rem;
   margin: 0;
